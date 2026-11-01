@@ -25,7 +25,7 @@
             android:backgroundTint="@color/btn_color"
             android:fontFamily="monospace"
             android:onClick="goBack"
-            android:text="Назад"
+            android:text="@string/back"
             android:textColor="@color/white" />
 
         <Button
@@ -37,7 +37,7 @@
             android:backgroundTint="@color/btn_color"
             android:fontFamily="monospace"
             android:onClick="goHome"
-            android:text="Головна"
+            android:text="@string/home"
             android:textColor="@color/white" />
 
         <Button
@@ -47,7 +47,7 @@
             android:backgroundTint="@color/btn_color"
             android:fontFamily="monospace"
             android:onClick="goForward"
-            android:text="Вперед"
+            android:text="@string/forward"
             android:textColor="@color/white" />
 
     </LinearLayout>
