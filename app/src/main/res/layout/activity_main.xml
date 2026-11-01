@@ -14,7 +14,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#263238"
+        android:background="@color/panel_color"
         android:orientation="horizontal"
         android:padding="6dp">
 
@@ -22,11 +22,11 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="#00897B"
+            android:backgroundTint="@color/btn_color"
             android:fontFamily="monospace"
             android:onClick="goBack"
             android:text="Назад"
-            android:textColor="#FFFFFF" />
+            android:textColor="@color/white" />
 
         <Button
             android:layout_width="0dp"
@@ -34,21 +34,21 @@
             android:layout_marginStart="6dp"
             android:layout_marginEnd="6dp"
             android:layout_weight="1"
-            android:backgroundTint="#00897B"
+            android:backgroundTint="@color/btn_color"
             android:fontFamily="monospace"
             android:onClick="goHome"
             android:text="Головна"
-            android:textColor="#FFFFFF" />
+            android:textColor="@color/white" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="#00897B"
+            android:backgroundTint="@color/btn_color"
             android:fontFamily="monospace"
             android:onClick="goForward"
             android:text="Вперед"
-            android:textColor="#FFFFFF" />
+            android:textColor="@color/white" />
 
     </LinearLayout>
 
